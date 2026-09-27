@@ -1,0 +1,31 @@
+Outcome,Population,Exposure,Level,n,OR (95% CI),P
+MASLD,All adults,Tooth loss (ref: 0 missing),1-8,6252,1.04 (0.80-1.35),0.681
+MASLD,All adults,Tooth loss (ref: 0 missing),9-27,6252,1.25 (0.88-1.78),0.146
+MASLD,All adults,Tooth loss (ref: 0 missing),Edentulous,6252,0.99 (0.56-1.75),0.956
+MASLD,All adults,P for trend (tooth loss),P for trend (tooth loss),6252,,0.455
+MASLD,All adults,Per 5 missing teeth,Per 5 missing teeth,6252,1.03 (0.97-1.10),0.318
+MASLD,All adults,Fewer than 20 teeth,<20 teeth,6252,1.14 (0.88-1.47),0.266
+MASLD,Dentate adults,Any untreated caries,Yes,5854,1.39 (1.12-1.73),0.010
+MASLD,Dentate adults,Per decayed tooth,Per decayed tooth,5854,1.01 (0.97-1.05),0.595
+MASLD,Dentate adults,Per 5 DMFT,Per 5 DMFT,5854,1.00 (0.91-1.11),0.910
+Significant fibrosis (LSM >= 8 kPa),All adults,Tooth loss (ref: 0 missing),1-8,6252,1.35 (0.88-2.08),0.125
+Significant fibrosis (LSM >= 8 kPa),All adults,Tooth loss (ref: 0 missing),9-27,6252,1.83 (0.99-3.39),0.053
+Significant fibrosis (LSM >= 8 kPa),All adults,Tooth loss (ref: 0 missing),Edentulous,6252,1.60 (0.60-4.29),0.254
+Significant fibrosis (LSM >= 8 kPa),All adults,P for trend (tooth loss),P for trend (tooth loss),6252,,0.071
+Significant fibrosis (LSM >= 8 kPa),All adults,Per 5 missing teeth,Per 5 missing teeth,6252,1.13 (1.00-1.27),0.045
+Significant fibrosis (LSM >= 8 kPa),All adults,Fewer than 20 teeth,<20 teeth,6252,1.38 (0.88-2.16),0.133
+Significant fibrosis (LSM >= 8 kPa),Adults with MASLD,Tooth loss (ref: 0 missing),1-8,2323,1.36 (0.87-2.12),0.132
+Significant fibrosis (LSM >= 8 kPa),Adults with MASLD,Tooth loss (ref: 0 missing),9-27,2323,2.28 (1.14-4.55),0.030
+Significant fibrosis (LSM >= 8 kPa),Adults with MASLD,Tooth loss (ref: 0 missing),Edentulous,2323,1.88 (0.87-4.07),0.086
+Significant fibrosis (LSM >= 8 kPa),Adults with MASLD,P for trend (tooth loss),P for trend (tooth loss),2323,,0.013
+Significant fibrosis (LSM >= 8 kPa),Adults with MASLD,Per 5 missing teeth,Per 5 missing teeth,2323,1.17 (1.06-1.30),0.009
+Significant fibrosis (LSM >= 8 kPa),Adults with MASLD,Fewer than 20 teeth,<20 teeth,2323,1.67 (1.14-2.45),0.016
+Significant fibrosis (LSM >= 8 kPa),Dentate adults,Any untreated caries,Yes,5854,1.51 (1.09-2.10),0.022
+Significant fibrosis (LSM >= 8 kPa),Dentate adults,Per decayed tooth,Per decayed tooth,5854,1.02 (0.97-1.08),0.286
+Significant fibrosis (LSM >= 8 kPa),Dentate adults,Per 5 DMFT,Per 5 DMFT,5854,0.99 (0.85-1.16),0.900
+Cirrhosis range (LSM >= 13.6 kPa),All adults,Tooth loss (ref: 0 missing),1-8,6252,1.59 (0.63-3.98),0.237
+Cirrhosis range (LSM >= 13.6 kPa),All adults,Tooth loss (ref: 0 missing),9-27,6252,1.70 (0.33-8.83),0.424
+Cirrhosis range (LSM >= 13.6 kPa),All adults,Tooth loss (ref: 0 missing),Edentulous,6252,2.81 (0.99-8.00),0.052
+Cirrhosis range (LSM >= 13.6 kPa),All adults,P for trend (tooth loss),P for trend (tooth loss),6252,,0.073
+Cirrhosis range (LSM >= 13.6 kPa),All adults,Per 5 missing teeth,Per 5 missing teeth,6252,1.20 (0.98-1.47),0.066
+Cirrhosis range (LSM >= 13.6 kPa),All adults,Fewer than 20 teeth,<20 teeth,6252,1.34 (0.57-3.15),0.432

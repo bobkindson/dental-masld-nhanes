@@ -1,0 +1,12 @@
+step,remaining,excluded
+All NHANES 2017-March 2020 participants,15560,0
+Aged 20 years or older,9232,6328
+Examined at the MEC,8544,688
+Completed liver elastography,7395,1149
+"Reliable elastography (>=10 valid, IQR/median <30%)",7395,0
+Complete dentition exam,7125,270
+Not pregnant,7125,0
+No hepatitis B (HBsAg+) or C (RNA+),7010,115
+No self-reported viral/autoimmune hepatitis,6949,61
+No heavy alcohol use,6271,678
+MASLD status classifiable,6271,0

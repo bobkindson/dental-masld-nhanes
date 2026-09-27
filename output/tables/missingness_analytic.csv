@@ -1,0 +1,17 @@
+variable,n_missing,pct_missing
+LBXTR,3308,52.8
+pir_cat,801,12.8
+LBXHSCRP,405,6.5
+LBDHDD,362,5.8
+log_cotinine,342,5.5
+LBXGH,246,3.9
+BMXWAIST,133,2.1
+BMXBMI,37,0.6
+insured,13,0.2
+education,7,0.1
+smoking,1,0
+RIDAGEYR,0,0
+sex,0,0
+race,0,0
+diabetes,0,0
+alcohol_g_wk,0,0

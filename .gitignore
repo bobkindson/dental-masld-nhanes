@@ -1,0 +1,13 @@
+# Data are public and re-downloadable by scripts/01_setup_and_download.R
+data/
+
+# R and RStudio working files
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini

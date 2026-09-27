@@ -1,0 +1,17 @@
+stratum,OR_CI,n,outcome,exposure,population,modifier,P_interaction
+Male,1.13 (0.97-1.32),1274,fib_sig,teeth5,Adults with MASLD,sex,0.752
+Female,1.21 (1.03-1.41),1049,fib_sig,teeth5,Adults with MASLD,sex,0.752
+20-59,1.31 (1.07-1.61),1391,fib_sig,teeth5,Adults with MASLD,age60,0.161
+60+,1.08 (0.91-1.29),932,fib_sig,teeth5,Adults with MASLD,age60,0.161
+Male,1.42 (0.76-2.65),1274,fib_sig,lt20_f,Adults with MASLD,sex,0.992
+Female,1.90 (1.08-3.34),1049,fib_sig,lt20_f,Adults with MASLD,sex,0.992
+20-59,1.92 (0.97-3.83),1391,fib_sig,lt20_f,Adults with MASLD,age60,0.617
+60+,1.54 (0.80-2.95),932,fib_sig,lt20_f,Adults with MASLD,age60,0.617
+Male,1.26 (0.85-1.86),2839,masld,caries_f,Dentate adults,sex,0.210
+Female,1.51 (1.09-2.09),3015,masld,caries_f,Dentate adults,sex,0.210
+20-59,1.36 (1.02-1.82),3954,masld,caries_f,Dentate adults,age60,0.615
+60+,1.43 (0.98-2.08),1900,masld,caries_f,Dentate adults,age60,0.615
+Male,1.01 (0.93-1.10),3045,masld,teeth5,All adults,sex,0.222
+Female,1.03 (0.93-1.14),3207,masld,teeth5,All adults,sex,0.222
+20-59,1.00 (0.88-1.14),4017,masld,teeth5,All adults,age60,0.950
+60+,1.09 (0.99-1.19),2235,masld,teeth5,All adults,age60,0.950
