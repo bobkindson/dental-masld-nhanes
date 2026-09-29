@@ -62,7 +62,8 @@ d <- d %>%
     analytic_alc     = as.integer(base_ok & !(heavy_alcohol %in% 1) & !is.na(masld)),
     analytic_263     = as.integer(base_ok & heavy_alcohol %in% 0 & !is.na(masld_263)),
     analytic_274     = as.integer(base_ok & heavy_alcohol %in% 0 & !is.na(masld_274)),
-    analytic_dentate = as.integer(analytic == 1 & dentate == 1)
+    analytic_dentate = as.integer(analytic == 1 & dentate == 1),
+    analytic_nocirr  = as.integer(analytic == 1 & LUXSMED < 13.6)
   )
 
 des   <- svydesign(id = ~SDMVPSU, strata = ~SDMVSTRA, weights = ~WTMECPRP,
@@ -136,7 +137,8 @@ sens <- bind_rows(
   run_core("S5: Serum cotinine instead of self-reported smoking", des, covars = m2_cot),
   run_core("S6: Fasting subsample, fasting weights", des_f),
   run_core("S7: Advanced fibrosis (LSM >= 9.7 kPa)", des, fib_var = "fib_adv"),
-  run_core("S8: Dentate adults only (edentulous excluded)", des, flag = "analytic_dentate")
+  run_core("S8: Dentate adults only (edentulous excluded)", des, flag = "analytic_dentate"),
+  run_core("S10: Cirrhosis-range stiffness excluded (LSM >= 13.6 kPa)", des, flag = "analytic_nocirr")
 )
 
 # S9: multiple imputation for income, education, insurance and smoking --------
